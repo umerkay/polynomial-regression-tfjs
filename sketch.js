@@ -8,7 +8,7 @@ var maxY = 1;
 
 const learningRate = 0.1;
 const optimizer = tf.train.adam(learningRate);
-const polyDegree = parseInt(prompt("Enter the degree of the polynomial"));
+const polyDegree = parseInt(prompt("Enter the degree of the polynomial. 1: straight line, 2: quadratic, etc."));
 
 
 function setup() {
